@@ -12,10 +12,8 @@ npm install
 npm run dev
 ```
 
-- UI: http://localhost:3457  
-- API: http://localhost:3456  
-- Webhook: `POST /api/public/pey-webhook` (vía proxy en `:3457` o directo en `:3456`)
-
+- App (UI + API): http://localhost:1234  
+- Webhook: `POST /api/public/pey-webhook` (mismo puerto)
 En [portal.mipey.mx](https://portal.mipey.mx) registra una URL pública a ese webhook (p. ej. con túnel) usando la misma API key.
 
 ## Secretos
